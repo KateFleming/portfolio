@@ -17,13 +17,13 @@ html {
 
 header { 
     padding-bottom:75px;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
 }
 h1 {
     color:grey;
     float:left;
     padding-left:52px;
-    font-family: "Helvetica";
+    font-family: 'Julius Sans One', sans-serif;
 /*    padding-bottom:50px;*/
         
 }
@@ -47,7 +47,7 @@ a {
     color:grey;
     list-style-type: none;
     text-decoration: none;
-    font-family: "Helvetica";
+    font-family: 'Julius Sans One', sans-serif;
      -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -61,7 +61,7 @@ a:hover {
 }
 p {
     color:Grey;
-    font-family: "Verdana";
+    font-family: 'Julius Sans One', sans-serif;
     display:inline-block;
     font-size: 19px;
     
@@ -74,7 +74,7 @@ h2 {
     padding-left:53px;
     line-height: 2;
     text-transform: uppercase;
-    font-family: "Helvetica";
+    font-family: 'Julius Sans One', sans-serif;
     border-bottom: px solid yellow;
 }
 .maincontent {
