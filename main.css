@@ -1,0 +1,86 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html { 
+  background: url(finalbackground2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    padding: 20px;
+    margin:20px;
+}
+
+header { 
+    padding-bottom:75px;
+    border-bottom: 2px solid grey;
+}
+h1 {
+    color:grey;
+    float:left;
+    padding-left:52px;
+    font-family: "Helvetica";
+/*    padding-bottom:50px;*/
+        
+}
+li {
+    display: inline-block;
+/*    padding-left: ;*/
+    padding-right: 20px;
+     border-left: 1px solid grey;
+    padding-left: 10px;
+    line-height:2;
+    
+   
+}
+
+ul {
+    float:right;
+    padding-top: 9px;
+
+}
+a {
+    color:grey;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Helvetica";
+     -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+a:hover {
+    background-color: none;
+    color: salmon;
+}
+p {
+    color:Grey;
+    font-family: "Verdana";
+    display:inline-block;
+    font-size: 19px;
+    
+}
+h2 {
+    color:grey;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 90px;
+    padding-left:53px;
+    line-height: 2;
+    text-transform: uppercase;
+    font-family: "Helvetica";
+    border-bottom: px solid yellow;
+}
+.maincontent {
+    width:50%;
+}
+ .letter {
+     color:salmon;
+ }
+    
