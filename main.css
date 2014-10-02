@@ -1,53 +1,57 @@
-/* apply a natural box layout model to all elements */
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-html { 
-  background: url(finalbackground2.png) no-repeat center center fixed; 
+ html {background: url(images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    padding: 20px;
-    margin:20px;
+ }
+
+.mainpic {
+    margin-top:100px;
+    margin-bottom: 100px;
+        
+    width: 100%;
 }
 
 header { 
-    padding-bottom:75px;
-    border-bottom: 1px solid grey;
+
+    padding-bottom:120px;
+    border-bottom: 1.5px solid grey;
+    margin-left: 15px;
+    margin-right:15px;
 }
 h1 {
     color:grey;
     float:left;
     padding-left:52px;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: "Dawning of a New Day", cursive;
+    font-size: 45px;
+    display: inline-block;
 /*    padding-bottom:50px;*/
         
 }
-li {
+.menu {
     display: inline-block;
 /*    padding-left: ;*/
     padding-right: 20px;
      border-left: 1px solid grey;
     padding-left: 10px;
     line-height:2;
-    
+    list-style: none;
+        
+
    
 }
 
-ul {
+.navbar {
     float:right;
-    padding-top: 9px;
+    padding-top: 45px;
 
 }
 a {
     color:grey;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Poiret One', cursive;
      -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -61,26 +65,104 @@ a:hover {
 }
 p {
     color:Grey;
-    font-family: 'Julius Sans One', sans-serif;
-    display:inline-block;
+    font-family: 'Poiret One', cursive;
+    display:inline;
     font-size: 19px;
     
+    
 }
+
+
+
 h2 {
+/*    float:left;*/
     color:grey;
-    display: inline-block;
-    padding-top: 10px;
+/*    display: inline-block;*/
+/*    padding-top: 50px;*/
     padding-right: 90px;
     padding-left:53px;
+/*    padding-bottom: 90px;*/
     line-height: 2;
-    text-transform: uppercase;
-    font-family: 'Julius Sans One', sans-serif;
+    font-size: 33px;
+/*    text-transform: uppercase;*/
+    font-family: 'Dawning of a New Day', cursive;
     border-bottom: px solid yellow;
+    text-align:center
 }
 .maincontent {
-    width:50%;
+    width:;
 }
  .letter {
-     color:salmon;
+     color: SteelBlue;
  }
     
+img {
+    position: relative;
+    display: inline-block; 
+/*    float: left;*/
+    clear:both; 
+}
+
+
+body {
+    min-height: 100%;
+}
+
+.aboutpictures {
+    align-content:center;
+        
+        
+        
+}
+    
+ .apic {
+     height: 300px; 
+     width: 300px; 
+     overflow: hidden; 
+     border-left: 0px;
+     padding: 50px; 
+     display:inline-block;
+     position: relative;
+     clear: both;
+         
+         
+         
+}
+
+footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+/*    margin-top: -3em;*/
+	background: SteelBlue;
+    padding-top:30px;
+}
+
+.twitter {
+    
+    display: inline-block;
+    padding-right: 15px; 
+}
+    
+.insta {
+    display:inline-block;
+    padding-right: 15px; 
+}
+
+.linked {
+    display:inline-block;
+    padding-right: 15px; 
+        
+}
+
+.buttons {
+    padding-top: 40px;
+    margin-left:40%;
+    margin-right: 50%;
+    display:inline;  
+    
+        
+}
+  
+

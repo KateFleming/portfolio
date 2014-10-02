@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kate Fleming </title>
+        <meta name="description" content="Kate Fleming Portfolio.">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+     
+      <header> 
+       <h1>Kate <span class="letter">Fleming</span> </h1>
+       
+       <nav class="navigation">
+        <ul>
+            <li><a href="#">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </nav>
+        </header>  
+        
+          <div class="test">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quaerat, sapiente autem! Aut libero ducimus rerum alias mollitia minus quam, dicta expedita, porro facere blanditiis sit deleniti! Molestiae totam veniam reprehenderit ut magnam reiciendis asperiores beatae obcaecati quas, sunt eligendi impedit enim nam, aut ratione repellat sint. Hic, explicabo, sit!</p>
+              <p>At vel ut odio omnis, magnam consequuntur necessitatibus, placeat voluptatibus, tempora cupiditate quaerat vero cumque recusandae quas temporibus quasi voluptates consequatur beatae? Laboriosam, voluptates, assumenda ex omnis aliquam accusamus, aperiam nostrum possimus dolor corporis sit, vero harum sequi eaque vel. Facere consequatur, deleniti necessitatibus at distinctio et ea hic obcaecati.</p>
+              <p>Nobis corporis animi similique aperiam voluptates nesciunt, molestiae quidem, ipsa non illum, molestias maiores veritatis necessitatibus temporibus ullam iure explicabo autem quibusdam, obcaecati ut rerum quam sequi. Quam asperiores expedita quaerat nobis dolore inventore, reprehenderit, quod ipsum necessitatibus nulla atque nemo quas consequatur voluptates voluptas! Ut quia ea magni veniam?</p>
+              <p>Sapiente expedita facilis aliquam accusantium ullam dolorum repudiandae, blanditiis ut consequatur, placeat ipsum totam odio soluta nulla. Excepturi itaque, quisquam, odio quo esse ducimus alias impedit ab voluptas error ipsam eaque, beatae voluptate! Velit ad et beatae eius, quia, officia illo commodi assumenda repudiandae architecto distinctio mollitia quidem qui voluptatem!</p>
+              <p>Nam et eius mollitia debitis, cumque nulla itaque recusandae officiis tempore quasi id, a, excepturi aliquid ullam earum ex sunt dolor sapiente nobis voluptate iusto ratione adipisci! Laudantium possimus tenetur adipisci tempore id, culpa vitae optio minima aliquid itaque dolorem, officia voluptatum! Velit dolores repudiandae autem labore esse placeat illum!</p>
+          </div>  
+      
+</body>
+  </html>
